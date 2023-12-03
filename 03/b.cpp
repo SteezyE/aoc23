@@ -24,13 +24,6 @@ int main()
 	const int n = v.size()-2;
 	const int m = v[1].size()-2;
 	v[0] = v[int(v.size()-1)];
-	// vector<vector<bool>> h(n, vector<bool>(m, 0));
-	// int dx[] = {1,0,1,-1,-1,0,1,-1};
-	// int dy[] = {0,1,1,-1,0,-1,-1,1};
-	// auto inbounds = [&](int x, int y)
-	// {
-	// 	return x >= 0 && x < n && y >= 0 && y < m;
-	// };
 	int sum = 0;
 	for(int i=1; i<=n; ++i)
 	{
